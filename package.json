@@ -1,0 +1,22 @@
+{
+  "name": "zoho-crm-sdk-integration-gcloud-js",
+  "description": "This is a sample code to use Zoho CRM SDK on Google Cloud with Cloud Function & Firestore.",
+  "version": "0.0.1",
+  "private": true,
+  "license": "",
+  "author": "BliTz_37",
+  "engines": {
+    "node": "10"
+  },
+  "scripts": {
+    "start": "firebase serve",
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "firebase-admin": "^5.13.1",
+    "firebase-functions": "^2.0.2",
+    "@google-cloud/firestore": "^4.2.0",
+    "zcrmsdk": "^0.0.20"
+  }
+}
